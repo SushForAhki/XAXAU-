@@ -486,6 +486,8 @@ local CFG = {
         felek = "https://aquamarine-bavarois-77a7d4.netlify.app/felek.mp3",
         tungfunk = "https://bright-narwhal-7ea1d9.netlify.app/sahur.mp3",
         riptear = "https://boisterous-melomakarona-be638c.netlify.app/riptear.mp3",
+        digidik = "https://comfy-squirrel-18bdb3.netlify.app/digidik.mp3",
+        helelele = "https://jocular-cannoli-ddde4a.netlify.app/helelele.mp3",
     },
 
     FreeLook = false, FreeLookKey = "LeftAlt", FreeLookSens = 1,
@@ -3065,6 +3067,12 @@ Button(MusicPresetSec, "TUNG FUNK", function()
 end)
 Button(MusicPresetSec, "RIP TEAR", function()
     if CFG.MusicTracks.riptear ~= "" then DownloadAndPlay(CFG.MusicTracks.riptear, "riptear") end
+end)
+Button(MusicPresetSec, "DIGIDIK", function()
+    if CFG.MusicTracks.digidik ~= "" then DownloadAndPlay(CFG.MusicTracks.digidik, "digidik") end
+end)
+Button(MusicPresetSec, "HELELELE", function()
+    if CFG.MusicTracks.helelele ~= "" then DownloadAndPlay(CFG.MusicTracks.helelele, "helelele") end
 end)
 
 local MusicAssetSec = Section(MusicTab, "Asset ID ile Çal")
