@@ -486,8 +486,8 @@ local CFG = {
         felek = "https://aquamarine-bavarois-77a7d4.netlify.app/felek.mp3",
         tungfunk = "https://bright-narwhal-7ea1d9.netlify.app/sahur.mp3",
         riptear = "https://boisterous-melomakarona-be638c.netlify.app/riptear.mp3",
-        digidik = "https://comfy-squirrel-18bdb3.netlify.app/digidik.mp3",
-        helelele = "https://jocular-cannoli-ddde4a.netlify.app/helelele.mp3",
+        digidik = "https://lucky-pegasus-493160.netlify.app/digidik.mp3",
+        helelele = "https://resplendent-treacle-20563e.netlify.app/helelele.mp3",
     },
 
     FreeLook = false, FreeLookKey = "LeftAlt", FreeLookSens = 1,
